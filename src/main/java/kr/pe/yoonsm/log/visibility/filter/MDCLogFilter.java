@@ -16,8 +16,8 @@ import java.io.IOException;
 @Component
 public class MDCLogFilter extends OncePerRequestFilter {
 
-    final String REMOTE_IP = "175.119.111.123";
-    final String SESSION = "OF30E51ABDFG17DF77EE8D73849583478DA";
+    final String REMOTE_IP = "175.11.10.10";
+    final String SESSION = "OF30E51ABDFG17D";
     final String ACCOUNT_ID ="yoonsm";
 
     @Override

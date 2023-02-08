@@ -2,7 +2,7 @@
 <configuration scan="true" scanPeriod="30 seconds">
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>%green(%d{yyyy-MM-dd HH:mm:ss.SSS}) %magenta(PL) %highlight(%X{sessionId}) %highlight(%X{accountId}) %highlight(%thread) %highlight(%-5level) %yellow(%X{remoteIp}) %cyan(%logger{20}) : %msg%n</pattern>
+            <pattern>%yellow(%d{yyyy-MM-dd HH:mm:ss.SSS}) PL %X{sessionId} %X{accountId} [%thread] %highlight(%-5level) %X{remoteIp} %logger{20} - %msg%n</pattern>
         </layout>
     </appender>
 
